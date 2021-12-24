@@ -1,0 +1,127 @@
+ body{
+ 
+  
+  background:url('12.gif')
+  
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image {    
+  border-radius:100%;
+}
+
+.header1 {
+  font-family:'Stencil Std','fantasy';
+  font-size: 4.5vw;
+}
+
+.header2 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 2.0vw;
+}
+
+.header3 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 2.8vw;
+}
+
+.header4 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.4vw;
+}
+
+.link1 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 9.8vw;
+  color: #00BFFF;
+  margin: 0px 5px 0px 5px;
+  transition: 0.5s;
+}
+
+.link1:hover {
+  color:#fc7a00;
+}
+
+
+.link2 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 9.8vw;
+  color:#fb3958;
+  margin: 0px 5px 0px 5px;
+  transition: 0.5s;
+}
+
+.link2:hover {
+  color:#fc7a00;
+}
+
+.link3 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 9.8vw;
+  color:	#000000;
+  margin: 0px 5px 0px 5px;
+  transition: 0.5s;
+}
+
+.link3:hover {
+  color:#fc7a00;
+  }
+  
+  .link4 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 9.8vw;
+  color:	#FFA500;
+  margin: 0px 5px 0px 5px;
+  transition: 0.5s;
+}
+
+.link4:hover {
+  color:#fc7a00;
+}
+
+
+@media screen and (max-width: 785px) {
+  .header1 {
+    font-size: 8vw;
+  }
+  .link1 {
+    font-size: 4vw;
+  }
+  .link2 {
+    font-size: 4vw;
+    }
+    .link3 {
+    font-size: 4vw;
+}
+ .link4 {
+    font-size: 4vw;
+}
+
+@media screen and (max-width: 765px) {
+  body {
+    text-align: center;
+  }
+  .header1 {
+    font-size: 8vw;
+  }
+  .header3 {
+    font-size: 4.5vw;
+  }
+  .header4 {
+    font-size: 3.4vw;
+  }
+  .header2 {
+    font-size: 2.8vw;
+  }
+}
+
+@media screen and (min-width: 1390px) {
+  .header2 {
+    font-size: 1.1vw;
+  }
+}
